@@ -311,6 +311,37 @@ header{
    border-radius: 0.5rem;
    
 }
+.rental{
+    background: linear-gradient(to top right, #ffac38, #fe5b3d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rental h2{
+    color: #444;
+    font-size: 1.8rem;
+}
+.rental .box{
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 4px 8px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.rental .box input{
+    border: none;
+    outline: none;
+}
+.rental .box .btn{
+   background: #474fa0;
+   color: #fff;
+   padding: 8px 20px; 
+   width: 400px;
+   border-radius: 0.5rem;
+   
+}
 .copyright{
   padding: 20px;
   display: flex;
